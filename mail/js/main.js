@@ -11,6 +11,7 @@ checkMail.addEventListener("click", function() {
     for (let i = 0; i < mails.length; i++) {
         if (userMail === mails[i]) {
             check = true;
+            break;
         }
     }
 
